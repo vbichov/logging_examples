@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 #   return event.levelname == 'INFO' && 'another' in event.msg 
 
 
-logger.addFilter(custom_filter)
+# logger.addFilter(custom_filter)
 
 logger.setLevel(logging.DEBUG)
 
